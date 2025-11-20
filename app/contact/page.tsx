@@ -24,7 +24,7 @@ const contactInfo = [
     title: "Address",
     details:
       "Faisal Arcade, Street 30, Block M, Naval Anchorage Extension Phase 2, Islamabad",
-    link: "https://maps.google.com/?q=Naval+Anchorage+Extension+Islamabad",
+    link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.738937489275!2d73.1950627!3d33.58612689999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfef08fd081d17%3A0x3da8aa1f74c06369!2sFaisal%20Arcade!5e0!3m2!1sen!2s!4v1763648425771!5m2!1sen!2s",
   },
   {
     icon: Clock,
@@ -229,7 +229,7 @@ const ContactPage = () => {
           className="w-full h-full"
         >
           <iframe
-            src="https://www.google.com/maps?q=Business+Park,+Unit+1+Carlinghurst+Rd,+George+St+W,+Blackburn+BB2+1PQ,+United+Kingdom&hl=en&z=17&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.738937489275!2d73.1950627!3d33.58612689999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfef08fd081d17%3A0x3da8aa1f74c06369!2sFaisal%20Arcade!5e0!3m2!1sen!2s!4v1763648425771!5m2!1sen!2s"
             width="100%"
             height="100%"
             style={{ border: 0 }}

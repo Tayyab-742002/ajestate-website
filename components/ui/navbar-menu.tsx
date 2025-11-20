@@ -53,9 +53,9 @@ export const Navbar = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-12 h-12 bg-primary flex items-center justify-center group-hover:bg-primary-dark transition-colors duration-300">
+              <div className="w-12 h-12 flex items-center justify-center transition-colors duration-300">
                 <Image
-                  src="/logo.JPG"
+                  src="/logo.png"
                   alt="A.J.Estate"
                   width={44}
                   height={44}
@@ -300,9 +300,9 @@ export const Navbar = () => {
               className="flex items-center gap-2.5"
               onClick={closeMobileMenu}
             >
-              <div className="w-12 h-12 bg-primary flex items-center justify-center group-hover:bg-primary-dark transition-colors duration-300">
+              <div className="w-12 h-12 flex items-center justify-center transition-colors duration-300">
                 <Image
-                  src="/logo.JPG"
+                  src="/logo.png"
                   alt="A.J.Estate"
                   width={44}
                   height={44}

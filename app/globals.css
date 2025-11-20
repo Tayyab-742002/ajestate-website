@@ -3,19 +3,19 @@
 
 :root {
   /* Brand Colors */
-  --primary: #fdb913; /* Yellow - Primary brand color */
-  --primary-dark: #e5a50d; /* Darker yellow for hovers */
+  --primary: #DAB263; /* Yellow - Primary brand color */
+  --primary-dark: #b08939; /* Darker yellow for hovers */
   --primary-light: #feca57; /* Lighter yellow for backgrounds */
 
-  --secondary: #000000; /* Black - Secondary color */
-  --secondary-light: #1a1a1a; /* Slightly lighter black */
+  --secondary: #1f2024; /* Black - Secondary color */
+  --secondary-light: #1f2024; /* Slightly lighter black */
 
   --background: #ffffff; /* White background */
   --surface: #f8f9fa; /* Light gray for cards/sections */
 
-  --text-primary: #000000; /* Black text */
+  --text-primary: #1f2024; /* Black text */
   --text-secondary: #4a4a4a; /* Gray text */
-  --text-on-primary: #000000; /* Text on yellow background */
+  --text-on-primary: #1f2024; /* Text on yellow background */
   --text-on-dark: #ffffff; /* Text on black background */
 
   /* Borders & Dividers */

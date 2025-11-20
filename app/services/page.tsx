@@ -65,20 +65,20 @@ const ServicesPage = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-center"
+            className="text-center flex flex-col items-center justify-center"
           >
-            <div className="inline-block mb-6">
+            <div className="inline-block mb-6 ">
               <div className="w-16 h-1 bg-primary mx-auto mb-4"></div>
               <p className="text-primary text-xs font-bold uppercase tracking-[0.3em]">
-                Our Services
+                Property Expertise
               </p>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 font-heading">
-              Complete 3PL Solutions
+              Comprehensive Real Estate Solutions
             </h1>
-            <p className="text-base md:text-lg lg:text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
-              Professional fulfilment services designed to scale with your
-              business
+            <p className="text-base  md:text-lg lg:text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
+              Verified listings, investment advisory, legal coordination, and end-to-end support tailored to Pakistan&apos;s
+              buyers, sellers, and developers.
             </p>
           </motion.div>
         </div>
