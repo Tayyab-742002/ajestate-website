@@ -172,19 +172,19 @@ interface StatsSectionProps {
 }
 
 export const StatsSection: React.FC<StatsSectionProps> = ({
-  title = "We don't believe in talk we Deliver Results",
-  description = "Our accuracy and performance metrics speak for themselves",
+  title = "Delivering confidence in every property decision",
+  description = "From verified listings to retained clients, our numbers reflect the trust Pakistan places in A.J.Estate.",
   stats = [
-    { value: 78, label: "Industry Average", delay: 0.2 },
-    { value: 85, label: "Top Competitors", delay: 0.4 },
+    { value: 12, label: "Cities Served", delay: 0.2 },
+    { value: 5000, label: "Verified Listings", delay: 0.4 },
     {
-      value: 99.8,
-      label: "H&S E-commerce",
+      value: 96,
+      label: "A.J.Estate Retention",
       className: "bg-primary",
       showToolTip: true,
       delay: 0.6,
     },
-    { value: 82, label: "Market Standard", delay: 0.8 },
+    { value: 1200, label: "Deals Facilitated", delay: 0.8 },
   ],
 }) => {
   return (

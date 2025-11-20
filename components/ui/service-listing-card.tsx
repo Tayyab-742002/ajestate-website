@@ -6,15 +6,16 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import {
-  Warehouse,
-  PackageCheck,
-  ShoppingCart,
-  Gift,
-  PackageOpen,
+  Briefcase,
   Building2,
-  Truck,
-  RotateCcw,
-  Container,
+  Coins,
+  FileCheck2,
+  Handshake,
+  Home,
+  Landmark,
+  LineChart,
+  MapPin,
+  Shield,
   type LucideIcon,
 } from "lucide-react";
 
@@ -35,15 +36,16 @@ interface ServiceListingCardProps
 
 // Icon mapping
 const iconMap: Record<string, LucideIcon> = {
-  Warehouse,
-  PackageCheck,
-  ShoppingCart,
-  Gift,
-  PackageOpen,
+  Briefcase,
   Building2,
-  Truck,
-  RotateCcw,
-  Container,
+  Coins,
+  FileCheck2,
+  Handshake,
+  Home,
+  Landmark,
+  LineChart,
+  MapPin,
+  Shield,
 };
 
 const ServiceListingCard = React.forwardRef<
@@ -65,7 +67,7 @@ const ServiceListingCard = React.forwardRef<
     },
     ref
   ) => {
-    const Icon = iconMap[iconName] || PackageCheck;
+    const Icon = iconMap[iconName] || Home;
 
     return (
       <Link href={href} className="group block h-full">

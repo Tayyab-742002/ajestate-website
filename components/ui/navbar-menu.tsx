@@ -56,17 +56,17 @@ export const Navbar = () => {
               <div className="w-12 h-12 bg-primary flex items-center justify-center group-hover:bg-primary-dark transition-colors duration-300">
                 <Image
                   src="/logo.JPG"
-                  alt="H&S E-commerce"
+                  alt="A.J.Estate"
                   width={44}
                   height={44}
                 />
               </div>
               <div>
                 <div className="text-white font-bold text-lg tracking-tight font-heading">
-                  H&S E-COMMERCE
+                  A.J.Estate
                 </div>
                 <div className="text-primary text-[10px] font-medium tracking-widest uppercase">
-                  3PL Solutions
+                  Real Estate
                 </div>
               </div>
             </Link>
@@ -266,13 +266,6 @@ export const Navbar = () => {
               </Link>
 
               <Link
-                href="/portal"
-                className="px-5 py-2 text-[13px] font-medium text-white/70 hover:text-white transition-colors duration-200"
-              >
-                PORTAL
-              </Link>
-
-              <Link
                 href="/contact"
                 className="px-5 py-2 text-[13px] font-medium text-white/70 hover:text-white transition-colors duration-200"
               >
@@ -310,17 +303,17 @@ export const Navbar = () => {
               <div className="w-12 h-12 bg-primary flex items-center justify-center group-hover:bg-primary-dark transition-colors duration-300">
                 <Image
                   src="/logo.JPG"
-                  alt="H&S E-commerce"
+                  alt="A.J.Estate"
                   width={44}
                   height={44}
                 />
               </div>
               <div>
                 <div className="text-white font-bold text-sm tracking-tight">
-                  H&S E-COMMERCE
+                  A.J.Estate
                 </div>
                 <div className="text-primary text-[9px] font-medium tracking-widest">
-                  3PL SOLUTIONS
+                  REAL ESTATE
                 </div>
               </div>
             </Link>
@@ -401,14 +394,6 @@ export const Navbar = () => {
                   className="block px-4 py-3 text-sm font-medium text-white/70 hover:text-white hover:bg-primary/5 transition-all duration-200"
                 >
                   ABOUT
-                </Link>
-
-                <Link
-                  href="/portal"
-                  onClick={closeMobileMenu}
-                  className="block px-4 py-3 text-sm font-medium text-white/70 hover:text-white hover:bg-primary/5 transition-all duration-200"
-                >
-                  PORTAL
                 </Link>
 
                 <Link

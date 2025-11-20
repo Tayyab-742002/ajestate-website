@@ -14,21 +14,21 @@ import {
 const commitments = [
   {
     icon: ShieldCheck,
-    title: "Service level focus",
+    title: "Client trust first",
     description:
-      "99% pick accuracy target with proactive incident reporting and root-cause reviews.",
+      "Every mandate is backed by confidentiality, compliance, and transparent communication.",
   },
   {
     icon: PackageCheck,
-    title: "Transparent fulfilment",
+    title: "Verified intelligence",
     description:
-      "Live dashboards, on-site inspections, and digital sign-offs keep every movement accountable.",
+      "Listings, valuations, and reports are vetted with on-ground checks before they reach you.",
   },
   {
     icon: FileSignature,
     title: "Clear documentation",
     description:
-      "Contracts, SLAs, and addendums are version controlled and easy to audit at any time.",
+      "Agreements and disclosures follow Pakistani property regulations and are easy to audit.",
   },
 ];
 
@@ -36,51 +36,51 @@ const termSections = [
   {
     heading: "1. Scope & definitions",
     intro:
-      "These Terms govern all fulfilment, warehousing, and related logistics offered by H&S E-commerce LTD (“we”, “us”, “our”). By onboarding, you (“Client”) agree to the latest version published on this page.",
+      "These Terms cover all advisory, brokerage, marketing, valuation, and documentation services delivered by A.J.Estate (“we”, “us”, “our”). By engaging us, you (“Client”) accept the latest version published here.",
     bullets: [
-      "“Services” include receiving, storage, pick & pack, kitting, labelling, carrier hand-off, returns, and value-added projects agreed in writing.",
-      "“Inventory” refers to any product, packaging, or branded material you place within our facilities.",
-      "“Business Day” means Monday to Friday, excluding UK public holidays.",
+      "“Services” include property discovery, listing, marketing, valuation, investment consulting, legal coordination, and project launches agreed in writing.",
+      "“Property Data” refers to ownership documents, financial statements, surveys, or media provided to us for verification or marketing.",
+      "“Business Day” means Monday to Friday, excluding public holidays in Pakistan.",
     ],
   },
   {
     heading: "2. Client responsibilities",
     intro:
-      "Partnerships thrive when both sides are aligned. To keep fulfilment predictable, we need timely information and compliant inventory.",
+      "Property mandates succeed when data and expectations are aligned. Help us protect your interests by sharing accurate information on time.",
     bullets: [
-      "Provide accurate SKUs, barcodes, and packaging instructions at least 48h before stock arrives.",
-      "Maintain insurance coverage for your goods. Our insurance covers facilities, not product value unless agreed.",
-      "Keep your payment methods up to date and pay undisputed invoices within the agreed terms.",
+      "Provide clear proof of ownership, CNIC copies, and authority letters before marketing or negotiations begin.",
+      "Disclose encumbrances, litigation, or developer dues that may impact timelines or pricing.",
+      "Respond to due-diligence queries within mutually agreed timeframes so buyers, sellers, and partners stay confident.",
     ],
   },
   {
-    heading: "3. Billing & payment",
+    heading: "3. Fees & settlement",
     intro:
-      "We issue invoices monthly in GBP. Custom payment schedules can be arranged for enterprise programs.",
+      "Advisory retainers and success fees are quoted in PKR unless otherwise agreed. Payment schedules are shared in each engagement letter.",
     bullets: [
-      "Storage, handling, courier labels, and professional services are itemised on every statement.",
-      "Late payments accrue 4% above Bank of England base rate. Persistent non-payment may pause services.",
-      "Disputes must be raised within 10 Business Days of invoice receipt with supporting evidence.",
+      "Brokerage commissions become payable on token receipt, bayana, or registration as stated in the mandate.",
+      "Consulting, valuation, or marketing retainers are invoiced upfront or monthly depending on scope.",
+      "Late payments accrue KIBOR + 4% per annum. Persistent non-payment may pause active campaigns or advisory.",
     ],
   },
   {
-    heading: "4. Liability & limitations",
+    heading: "4. Liability & reliance",
     intro:
-      "We operate under UKWA-style limitations unless a bespoke liability addendum is signed.",
+      "Our role is to facilitate informed decisions. We do not assume responsibility for undisclosed facts, market volatility, or third-party performance.",
     bullets: [
-      "Our total liability for any claim is capped at the fees paid in the previous 3 months.",
-      "We are not liable for consequential loss, lost profits, or carrier performance once handover is complete.",
-      "Claims for damaged or missing goods must be logged within 7 days of occurrence.",
+      "Liability for any claim is capped at the professional fees paid in the prior 3 months.",
+      "We are not liable for indirect loss, lost opportunity, or financing outcomes beyond our control.",
+      "Clients must independently verify bank transfers, taxation, and regulatory filings before completion.",
     ],
   },
   {
     heading: "5. Term, renewal & suspension",
     intro:
-      "Unless stated otherwise, Services renew on a rolling 12-month basis with 90 days’ termination notice.",
+      "Mandates renew automatically unless terminated with 30 days’ written notice. Outstanding dues must be cleared before marketing is halted.",
     bullets: [
-      "Either party may terminate for convenience with written notice and settlement of outstanding balances.",
-      "We may suspend Services for material breach, fraudulent activity, or safety concerns.",
-      "Upon termination we’ll coordinate exit-stock counts and courier collections within 10 Business Days.",
+      "Either party may end the engagement for convenience after settling committed media spends and professional fees.",
+      "We may suspend services if documents are fraudulent, payments lapse, or compliance risks emerge.",
+      "Upon termination we return client documents and conclude ongoing negotiations in accordance with written instructions.",
     ],
   },
 ];
@@ -88,37 +88,36 @@ const termSections = [
 const processSteps = [
   {
     title: "Kickoff",
-    detail: "We align on SKUs, carrier rules, SLAs, and integrations.",
+    detail: "We capture your objectives, timelines, and compliance requirements.",
   },
   {
-    title: "Operational handover",
+    title: "Due diligence",
     detail:
-      "Inventory lands at our facility, QC is completed, and live dashboards go online.",
+      "Our team vets documents, gathers market data, and prepares the mandate pack.",
   },
   {
-    title: "Performance monitoring",
+    title: "Marketing & negotiations",
     detail:
-      "Joint reviews, KPI snapshots, and optimisation sprints every quarter.",
+      "Listings go live, buyers or tenants are screened, and offers are negotiated transparently.",
   },
   {
-    title: "Change management",
+    title: "Completion",
     detail:
-      "Scope tweaks, seasonal ramps, and new service lines follow a signed change order.",
+      "Tokens, bayana, finance, and registration are coordinated with lawyers and regulators.",
   },
 ];
 
 const contactBlocks = [
   {
     title: "Contract questions",
-    value: "legal@hsecommerce.co.uk",
-    description: "Use this email for addendums, DPA requests, or SLA tweaks.",
+    value: "legal@ajestate.com",
+    description: "Use this email for addendums, confidentiality requests, or mandate tweaks.",
     icon: Handshake,
   },
   {
     title: "Accounts & billing",
-    value: "+44 203 488 7000",
-    description:
-      "Finance desk available Mon–Fri 9am-6pm GMT for payment queries.",
+    value: "0300-5238308",
+    description: "Finance desk available Mon–Fri 9am-6pm PKT for payment queries.",
     icon: CreditCard,
   },
 ];
@@ -162,9 +161,9 @@ const TermsPage = () => {
               Terms of Service
             </h1>
             <p className="max-w-3xl text-lg text-gray-600 md:text-xl">
-              A practical, no-nonsense agreement that reflects how we deliver
-              fulfilment, technology, and support for modern brands. Review the
-              clauses below, and reach out if you need a custom schedule.
+              A practical, transparent framework for how A.J.Estate delivers
+              advisory, brokerage, and investment services across Pakistan. Review
+              the clauses below and contact us if you require bespoke terms.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -174,7 +173,7 @@ const TermsPage = () => {
                 View privacy policy
               </Link>
               <a
-                href="mailto:legal@hsecommerce.co.uk"
+                href="mailto:legal@ajestate.com"
                 className="inline-flex items-center gap-2  bg-primary px-6 py-3 text-sm font-semibold text-black uppercase tracking-wide"
               >
                 Email legal desk
@@ -270,7 +269,7 @@ const TermsPage = () => {
               </p>
             </div>
             <div className="border border-white/20 px-4 py-2 text-sm text-white/70">
-              Need a bespoke addendum? legal@hsecommerce.co.uk
+                Need a bespoke addendum? legal@ajestate.com
             </div>
           </div>
 

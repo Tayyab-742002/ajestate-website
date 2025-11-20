@@ -9,29 +9,32 @@ import { HeroScrollVideo } from "@/components/ui/hero-scroll-video";
 import { StatsSection } from "@/components/ui/stats-section";
 
 const values = [
-  "Excellence in every order",
-  "Technology-driven solutions",
-  "Partnership over transactions",
-  "Continuous innovation",
+  "Transparency before transactions",
+  "Local expertise with global standards",
+  "Client-first, always",
+  "Innovation that simplifies decisions",
 ];
 
 const members = [
   {
-    name: "Qazi Haris",
-    role: "Founder",
-    avatar: "https://pub-20f982007aa54df4849bcd969b89a1bf.r2.dev/haris.png",
+    name: "Ali Jafri",
+    role: "Founder & CEO",
+    avatar:
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&h=1000&fit=crop&q=80",
     link: "#",
   },
   {
-    name: "Muhammad Raheel",
-    role: "Founder",
-    avatar: "https://pub-20f982007aa54df4849bcd969b89a1bf.r2.dev/raheel.png",
+    name: "Sadia Rahman",
+    role: "Head of Advisory",
+    avatar:
+      "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=800&h=1000&fit=crop&q=80",
     link: "#",
   },
   {
-    name: "Tayab Shakeel",
-    role: "Founder",
-    avatar: "https://pub-20f982007aa54df4849bcd969b89a1bf.r2.dev/Tee.PNG",
+    name: "Hamza Siddiqui",
+    role: "Director, Investments",
+    avatar:
+      "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=800&h=1000&fit=crop&q=80",
     link: "#",
   },
 ];
@@ -42,9 +45,9 @@ const AboutPage = () => {
       {/* Hero Scroll Video Section */}
       <HeroScrollVideo
         title="About Us"
-        subtitle="H&S E-commerce LTD"
-        meta="Since 2015"
-        backgroundImage="https://images.unsplash.com/photo-1727199079123-ba845d5ab4f6?w=2400&h=1600&fit=crop&q=90"
+        subtitle="A.J.Estate"
+        meta="Property Expertise Since 2015"
+        backgroundImage="https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=2400&h=1600&fit=crop&q=90"
         media="https://pub-20f982007aa54df4849bcd969b89a1bf.r2.dev/about-section-video.mp4"
         mediaType="video"
         poster="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=2400&h=1600&fit=crop&q=90"
@@ -56,11 +59,11 @@ const AboutPage = () => {
         scrollHeightVh={250}
         overlay={{
           caption: "OUR STORY",
-          heading: "Building the future of fulfilment",
+          heading: "Leading property solutions across Pakistan",
           paragraphs: [
-            "Since 2015, we&apos;ve been on a mission to transform how e-commerce businesses handle fulfilment. What began as a single warehouse has evolved into a comprehensive logistics ecosystem.",
-            "We combine cutting-edge technology with hands-on expertise to deliver fulfilment services that scale with your ambitions. Today, we&apos;re trusted by over 500 businesses, processing millions of orders with industry-leading accuracy.",
-            "What drives us is the success of every business we partner with. Your growth is our mission.",
+            "Founded to demystify Pakistan’s real estate market, A.J.Estate empowers buyers, sellers, and investors with verified insights and trusted guidance across Karachi, Lahore, Islamabad, and emerging hubs.",
+            "Our team combines on-ground intelligence, legal diligence, and modern technology to make every property journey transparent and stress-free.",
+            "From first homes to large-scale portfolios, we’re driven by the same promise: integrity, innovation, and client-first service.",
           ],
           extra: null,
         }}
@@ -70,22 +73,22 @@ const AboutPage = () => {
       />
 
       {/* Stats Section with Bar Charts */}
-      <StatsSection
-        title="We don't believe in talk we Deliver Results"
-        description="Our accuracy and performance metrics speak for themselves"
+      {/* <StatsSection
+        title="Delivering confidence in every property decision"
+        description="Our reach spans Pakistan’s top cities, backed by verified listings and trusted advisory."
         stats={[
-          { value: 78, label: "Industry Average", delay: 0.2 },
-          { value: 85, label: "Top Competitors", delay: 0.4 },
+          { value: 12, label: "Cities Served", delay: 0.2 },
+          { value: 5000, label: "Verified Listings", delay: 0.4 },
           {
-            value: 99.8,
-            label: "H&S E-commerce",
+            value: 1200,
+            label: "Transactions Facilitated",
             className: "bg-primary",
             showToolTip: true,
             delay: 0.6,
           },
-          { value: 82, label: "Market Standard", delay: 0.8 },
+          { value: 96, label: "% Client Retention", delay: 0.8 },
         ]}
-      />
+      /> */}
 
       {/* Visual Break - Large Image */}
 
@@ -139,13 +142,12 @@ const AboutPage = () => {
           >
             <div className="w-20 h-px bg-primary mb-12"></div>
             <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white font-heading">
-              Our dream team
+              Our leadership
             </h2>
             <p className="text-xl text-white/60 max-w-2xl mt-6">
-              Decades of combined experience in logistics, technology, and
-              e-commerce. During the working process, we perform regular fitting
-              with the client because he is the only person who can feel whether
-              a new suit fits or not.
+              Decades of combined experience in property advisory, valuations,
+              and investment structuring help us align local nuance with global
+              best practices.
             </p>
           </motion.div>
 
@@ -219,14 +221,15 @@ const AboutPage = () => {
             className="max-w-3xl"
           >
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 font-heading">
-              Let&apos;s grow together
+              Ready to explore Pakistan&apos;s property market?
             </h2>
             <p className="text-xl text-white/80 mb-12">
-              Partner with a 3PL that&apos;s invested in your success
+              Partner with A.J.Estate for transparent guidance, verified listings,
+              and data-backed investment support.
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-3 px-10 py-5 bg-primary hover:bg-primary-dark text-black font-bold text-lg transition-all duration-200 group"
+              className="inline-flex items-center m-5 gap-3 px-10 py-5 bg-primary hover:bg-primary-dark text-black font-bold text-lg transition-all duration-200 group"
             >
               Start Your Journey
               <ArrowRight

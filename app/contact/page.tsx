@@ -10,21 +10,21 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    details: "info@hsecommerce.co.uk",
-    link: "mailto:info@hsecommerce.co.uk",
+    details: "info@ajestate.com",
+    link: "mailto:info@ajestate.com",
   },
   {
     icon: Phone,
     title: "Phone",
-    details: "+447955426807",
-    link: "tel:+447955426807",
+    details: "0300-5238308",
+    link: "tel:+923005238308",
   },
   {
     icon: MapPin,
     title: "Address",
     details:
-      "Business Park, Unit 1 Carlinghurst Rd, George St W, Blackburn BB2 1PQ, United Kingdom",
-    link: "https://maps.google.com",
+      "Faisal Arcade, Street 30, Block M, Naval Anchorage Extension Phase 2, Islamabad",
+    link: "https://maps.google.com/?q=Naval+Anchorage+Extension+Islamabad",
   },
   {
     icon: Clock,
@@ -86,8 +86,8 @@ const ContactPage = () => {
               growth
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-2xl">
-              Get in touch to discuss how we can streamline your fulfilment
-              operations
+              Get in touch to explore how A.J.Estate can guide your next property
+              purchase, sale, or investment.
             </p>
           </motion.div>
         </div>
@@ -169,7 +169,7 @@ const ContactPage = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-[#1D1D1D] border border-white/30 focus:border-0 focus:ring-0 outline-none transition-colors text-white placeholder:text-white/50 rounded-md"
-                    placeholder="+447955426807"
+                    placeholder="0300-5238308"
                   />
                 </div>
 
@@ -237,7 +237,7 @@ const ContactPage = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             className="w-full h-full"
-            title="H&S Ecommerce Location"
+            title="A.J.Estate Location"
           />
         </motion.div>
       </section>

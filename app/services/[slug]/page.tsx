@@ -29,25 +29,24 @@ export async function generateMetadata({
 
   if (!service) {
     return {
-      title: "Service Not Found - H&S E-commerce",
+      title: "Service Not Found - A.J.Estate",
     };
   }
 
   return {
-    title: `${service.title} - H&S E-commerce LTD`,
+    title: `${service.title} | A.J.Estate`,
     description: service.overview.description,
     keywords: [
       service.title,
-      "3PL",
-      "fulfilment",
-      "UK",
-      "logistics",
-      "warehousing",
-      "e-commerce",
+      service.tagline,
+      "A.J.Estate",
+      "real estate Pakistan",
+      "property services",
+      "property investment advice",
     ],
     openGraph: {
-      title: `${service.title} - H&S E-commerce LTD`,
-      description: service.tagline,
+      title: `${service.title} | A.J.Estate`,
+      description: service.overview.description,
       images: [service.hero.image],
     },
   };

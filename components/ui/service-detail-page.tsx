@@ -35,28 +35,28 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({
       {/* Overview Section */}
       <section className="py-16 md:py-20 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            className="max-w-3xl"
-            >
-              <div className="w-12 h-1 bg-primary mb-6"></div>
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-6 font-heading">
-                Service Overview
-              </h2>
-              <p className="text-base md:text-lg text-text-secondary leading-relaxed">
-                {service.overview.description}
-              </p>
-            </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="max-w-4xl"
+          >
+            <div className="w-12 h-1 bg-primary mb-6"></div>
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4 font-heading">
+              Service Snapshot
+            </h2>
+            <p className="text-base md:text-lg text-text-secondary leading-relaxed">
+              {service.overview.description}
+            </p>
+          </motion.div>
         </div>
       </section>
 
       {/* Features Section with Sticky Cards */}
       <StickyFeatureSection
-        title="Key Features"
-        subtitle="Discover what makes our service stand out"
+        title="What You Unlock"
+        subtitle="Every engagement blends market intelligence, documentation rigor, and on-ground execution."
         features={service.overview.features.map((feature, index) => {
           // Ensure each feature gets a different image by cycling through gallery
           // If gallery has fewer images than features, cycle through them
@@ -68,7 +68,7 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({
 
           return {
             title: feature,
-            description: `Enhance your operations with ${feature.toLowerCase()} as part of our ${service.title.toLowerCase()} solution.`,
+            description: `A.J.Estate weaves ${feature.toLowerCase()} into every ${service.title.toLowerCase()} mandate so you can make confident property decisions.`,
             imageUrl: featureImage,
           };
         })}
@@ -83,12 +83,16 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-16"
+            className="text-center mb-16 max-w-3xl mx-auto"
           >
             <div className="w-16 h-1 bg-primary mx-auto mb-6"></div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 font-heading">
               {service.process.title}
             </h2>
+            <p className="text-base md:text-lg text-text-secondary">
+              Step-by-step guidance from our advisors keeps paperwork, negotiations,
+              and handovers moving without surprises.
+            </p>
           </motion.div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
@@ -168,10 +172,10 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({
       {/* Gallery Section */}
       <section className="py-16 md:py-20 lg:py-24 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-              <motion.div
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+            viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
@@ -245,25 +249,25 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 font-heading">
-              Ready to get started?
+              Ready to plan what&apos;s next?
             </h2>
             <p className="text-base md:text-lg text-white/70 mb-10 max-w-2xl mx-auto">
-              Contact our team to discuss how {service.title.toLowerCase()} can
-              benefit your business
+              Speak with A.J.Estate advisors to map out how{" "}
+              {service.title.toLowerCase()} can unlock your next property milestone.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/contact"
+                href="/contact?type=consultation"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary hover:bg-primary-dark text-black font-bold transition-all duration-200"
               >
-                Get a Quote
+                Book a Consultation
                 <ArrowRight className="w-5 h-5" strokeWidth={2.5} />
               </Link>
               <Link
                 href="/services"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white hover:bg-white hover:text-black font-bold transition-all duration-200"
               >
-                All Services
+                View All Services
               </Link>
             </div>
           </motion.div>

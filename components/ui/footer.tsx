@@ -10,7 +10,6 @@ const company = [
   { name: "About Us", href: "/about" },
   { name: "Our Services", href: "/services" },
   { name: "Contact", href: "/contact" },
-  { name: "Client Portal", href: "/portal" },
 ];
 
 export const Footer = () => {
@@ -28,27 +27,27 @@ export const Footer = () => {
               <div className="w-12 h-12 bg-primary flex items-center justify-center group-hover:bg-primary-dark transition-colors duration-300">
                 <Image
                   src="/logo.JPG"
-                  alt="H&S E-commerce"
+                  alt="A.J.Estate"
                   width={44}
                   height={44}
                 />
               </div>
               <div>
                 <div className="text-white font-bold text-xl tracking-tight font-heading">
-                  H&S E-COMMERCE
+                  A.J.Estate
                 </div>
                 <div className="text-primary text-[10px] font-medium tracking-widest uppercase">
-                  3PL Solutions
+                  Real Estate
                 </div>
               </div>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-sm">
-              Professional 3PL fulfilment services for growing e-commerce
-              businesses across the UK.
+              Leading property advisors for buyers, sellers, and investors across
+              Pakistan&apos;s most in-demand neighborhoods.
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="https://www.instagram.com/hs_ecommercex?igsh=cWJuODdmNnB6dXZk&utm_source=qr"
+                href="https://www.instagram.com/aj.estate"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 border border-white/20 flex items-center justify-center hover:border-primary hover:bg-primary/10 transition-all duration-300"
@@ -60,7 +59,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.tiktok.com/@hsecommerce?_r=1&_t=ZN-91TrsekSCak"
+                href="https://www.tiktok.com/@aj.estate"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 border border-white/20 flex items-center justify-center hover:border-primary hover:bg-primary/10 transition-all duration-300"
@@ -130,37 +129,51 @@ export const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="mailto:info@hsecommerce.co.uk"
+                  href="mailto:info@ajestate.com"
                   className="flex items-start gap-3 text-white/60 text-sm hover:text-primary transition-colors duration-200 group"
                 >
                   <Mail
                     className="w-4 h-4 mt-0.5 shrink-0 group-hover:text-primary"
                     strokeWidth={2}
                   />
-                  <span>info@hsecommerce.co.uk</span>
+                  <span>info@ajestate.com</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+447955426807"
+                  href="tel:+923005238308"
                   className="flex items-start gap-3 text-white/60 text-sm hover:text-primary transition-colors duration-200 group"
                 >
                   <Phone
                     className="w-4 h-4 mt-0.5 shrink-0 group-hover:text-primary"
                     strokeWidth={2}
                   />
-                  <span>+447955426807</span>
+                  <span>0300-5238308</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/923005238308"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 text-white/60 text-sm hover:text-primary transition-colors duration-200 group"
+                >
+                  <Phone
+                    className="w-4 h-4 mt-0.5 shrink-0 group-hover:text-primary"
+                    strokeWidth={2}
+                  />
+                  <span>WhatsApp: 0300-5238308</span>
                 </a>
               </li>
               <li>
                 <div className="flex items-start gap-3 text-white/60 text-sm">
                   <MapPin className="w-4 h-4 mt-0.5 shrink-0" strokeWidth={2} />
                   <span>
-                    Business Park, Unit 1 Carlinghurst Rd
+                    Faisal Arcade, Street 30, Block M
                     <br />
-                    George St W, Blackburn BB2 1PQ
+                    Naval Anchorage Extension, Phase 2
                     <br />
-                    United Kingdom
+                    Islamabad, Pakistan
                   </span>
                 </div>
               </li>
@@ -174,8 +187,7 @@ export const Footer = () => {
         <div className="max-w-7xl mx-auto px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/40 text-xs">
-              © {new Date().getFullYear()} H&S E-commerce LTD. All rights
-              reserved.
+              © {new Date().getFullYear()} A.J.Estate. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link

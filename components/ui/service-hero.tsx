@@ -79,7 +79,7 @@ export function ServiceHero({ service }: ServiceHeroProps) {
               variants={itemVariants}
               transition={{ duration: 0.6, ease: "easeOut" }}
             >
-              <Link href="/contact">
+              <Link href="/contact?type=consultation">
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
@@ -89,7 +89,7 @@ export function ServiceHero({ service }: ServiceHeroProps) {
                     size="lg"
                     className="bg-primary hover:bg-primary-dark text-black font-semibold px-6 sm:px-8 py-5 sm:py-6 text-sm sm:text-base group w-full sm:w-auto"
                   >
-                    Get Started
+                    Book a Consultation
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
                   </Button>
                 </motion.div>
