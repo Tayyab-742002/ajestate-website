@@ -198,7 +198,7 @@ export const AboutSnapshotSection = () => {
             </p>
           </>
         }
-        primaryImageSrc="https://images.unsplash.com/photo-1494526585095-c41746248156?w=800&h=1000&fit=crop&q=80"
+        primaryImageSrc="https://images.unsplash.com/photo-1668911494802-291743616f6a?w=800&h=1000&fit=crop&q=80"
         secondaryImageSrc="https://images.unsplash.com/photo-1486308510493-aa64833637b9?w=800&h=1000&fit=crop&q=80"
         reverseLayout={false}
         stats={[
